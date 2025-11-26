@@ -7,6 +7,9 @@ release-build/
 out/
 vs-build/
 
+.clangd
+compile_commands.json
+
 # Prerequisites
 *.d
 
@@ -431,6 +434,9 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# vim sessions
+session.vim
+
 # VS Code files for those working on multiple tools
 .vscode/*
 !.vscode/settings.json
@@ -451,3 +457,13 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
